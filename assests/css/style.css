@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background: #022D7C;
+    justify-content: space-between;
+}
+
+
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), 
+    url(../img/industrial.png);
+    background-size: cover;
+}
+.banner h1{
+    font-size: 55px;
+    font-weight: normal;
+}
+.banner h1 span{
+    display: block;
+    font-size: 77px; 
+    font-weight: 600;
+}
+.banner aside{
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background: #022D7C;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 50px;
+}
+/* Banner Section End */
+
+/* feature section start */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022D7C;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width: 400px;
+    height: 250px;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* feature section end */
+
+/* About us section Start */
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 300px;
+    background: #022D7C;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 15px 120px;
+    background: #022D7C;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+/* About us section End */
+
+/* Multiple Content Section Start */
+.service, .table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image, 
+.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 660px;
+    height: 500px;
+}
+table tr td img{
+    width: 660px;
+    height: 500px;
+}
+/* Multiple Content Section End */
+
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 25px 100px;
+    background: #022D7C;
+}
+/* Footer Section End */
+
+/* Media Query Section Start */
+@media screen and (max-width:992px) {
+    header{
+        padding: 10px;
+    }
+    header h2{
+        font-size: 20px;
+    }
+    .banner{
+        padding: 10px;
+        /* flex-direction: column; */
+    }
+    .feature{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about{
+        padding: 20px;
+    }
+    .service{
+        padding: 10px;
+    }
+    .service .upper,
+    .service .lower{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .service .image,
+    .service .content{
+        width: auto;
+        padding-left: 0px !important;
+    }
+}
+/* Media Query Section End */
