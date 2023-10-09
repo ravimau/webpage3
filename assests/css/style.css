@@ -57,24 +57,27 @@ header{
     width: 100%;
     height: auto;
     display: flex;
-    color: #022D7C;
+    color: #022d7c;
     padding: 60px 100px;
     justify-content: space-between;
 }
 .feature div{
-    width: 30%;
+    width: 33%;
     height: 400px;
 }
 .feature div h2{
+    text-align: center;
     font-size: 40px;
     margin-bottom: 7px;
 }
 .feature div img{
-    width: 400px;
-    height: 250px;
+    margin-left: 8%;
+    width: 343px;
+    font-weight: 400;
+    height: 200px;
 }
 .feature div p{
-    margin-top: 5px;
+    margin: 5px 0px 0px 30px;
     font-size: 18px;
     text-align: justify;
 }
@@ -109,26 +112,30 @@ header{
 /* About us section End */
 
 /* Multiple Content Section Start */
-.service, .table{
+.service{
     width: 100%;
     height: auto;
     padding: 0px 100px;
 }
-.service .upper, .service .lower{
+.service .upper,.service .lover{
     display: flex;
     align-items: center;
 }
-.service .image, 
-.service .content{
+.service .image, .service content {
     width: 50%;
 }
 .service .image img{
-    width: 660px;
+    width: 570px;
     height: 500px;
 }
-table tr td img{
-    width: 660px;
-    height: 500px;
+.service .content h3{
+    font-weight: 900;
+    text-align: center;
+    font-size: xx-large;
+}
+.service .content p{
+    font-size: larger;
+    font-weight: 200;
 }
 /* Multiple Content Section End */
 
